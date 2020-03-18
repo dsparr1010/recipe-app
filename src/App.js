@@ -5,9 +5,6 @@ import { ID, KEY } from './components/Keys';
 
 const App = () => {
 
-  //const ID = '8e57f888'
-  //const KEY = 'b8bd857d26da14154c0b83e1e9f8d5b0'
-
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('pie');

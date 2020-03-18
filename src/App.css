@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height:100vh;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.search-form{
+  min-height:10vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.search-input {
+  width: 20%;
+  padding: 15px;
+  justify-content:center;
+  align-items:center;
+}
+
+.search-btn {
+  background: lightseagreen;
+  border: seagreen;
+  padding: 10px 20px;
+  color: white;
+  height: 4vh;
+  margin: 20px;
+  width: 10vh;
 }
